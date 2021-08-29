@@ -12,4 +12,8 @@ The project consists of recreating a screen for creating tweets, where the user 
 <code><img height="35" width="35" src="./public/js-logo.svg"></code>
 <code><img height="35" width="35" src="./public/vscode-logo.svg"></code>
 <code><img height="35" width="35" src="./public/git-logo.svg"></code>
+<<<<<<< HEAD
 <code><img height="35" width="35" src="./public/github-logo.svg"></code>
+=======
+<code><img height="35" width="35" src="./public/github-logo.svg"></code>
+>>>>>>> 0b66bdb24405034c499f2cd669a29c437cddbefc
