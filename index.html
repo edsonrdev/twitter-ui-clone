@@ -1,111 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+   <!-- cabeça da página (importante para o browser) -->
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+      <link rel="stylesheet" href="assets/css/reset.css">
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap">
+      
       <link rel="stylesheet" href="assets/css/style.css">
+
       <title>Ken-Te-Vi</title>
    </head>
 
+   <!-- corpo da página (importante para o usuário) -->
    <body>
-      <!-- cabeçalho -->
-      <header>
-         <!-- imagem logo -->
-         <figure>
-            <img src="assets/img/bird 1.svg" alt="Logo Ken-Te-Vi">
-            <figcaption hidden>Logo Ken-Te-Vi</figcaption>
-         </figure>
+      <!-- centraliza o conteúdo na tela -->
+      <div class="container">
+         <!-- cabeçalho -->
+         <header class="cabecalho">
+            <!-- imagem logo -->
+            <figure class="cabecalho__logo">
+               <img src="assets/img/bird 1.svg" alt="Logo Ken-Te-Vi">
+               <figcaption hidden>Logo Ken-Te-Vi</figcaption>
+            </figure>
 
-         <!-- menu de navegação -->
-         <nav>
-            <!-- lista de links -->
-            <ul>
-               <li>
-                  <img src="assets/img/Home.png" alt="">
-                  <a href="#">Página Inicial</a>
-               </li>
-               <li>
-                  <img src="assets/img/Hashtag.png" alt="">
-                  <a href="#">Explorar</a>
-               </li>
-               <li>
-                  <img src="assets/img/Notification.png" alt="">
-                  <a href="#">Notificações</a></li>
-               <li>
-                  <img src="assets/img/Message.png" alt="">
-                  <a href="#">Mensagens</a>
-               </li>
-               <li>
-                  <img src="assets/img/SaveItem.png" alt="">
-                  <a href="#">Itens Salvos</a>
-               </li>
-               <li>
-                  <img src="assets/img/List.png" alt="">
-                  <a href="#">Listas</a>
-               </li>
-               <li>
-                  <img src="assets/img/ProfilePic.png" alt="">
-                  <a href="#">Perfil</a>
-               </li>
-               <li>
-                  <img src="assets/img/Plus.png" alt="">
-                  <a href="#">Mais</a>
-               </li>
-            </ul>
-         </nav>
-      </header>
+            <!-- menu de navegação -->
+            <nav class="cabecalho__menu-navegacao">
+               <!-- lista de links -->
+               <ul class="cabecalho__menu-lista">
+                  <li class="cabecalho__menu-item">
+                     <img src="assets/img/Home.png" alt="">
+                     <a href="#">Página Inicial</a>
+                  </li>
 
-      <!-- conteúdo principal -->
-      <main>
-         <!-- título -->
-         <h3>Home</h3>
+                  <li class="cabecalho__menu-item">
+                     <img src="assets/img/Hashtag.png" alt="">
+                     <a href="#">Explorar</a>
+                  </li>
 
-         <!-- formulário -->
-         <form action="#">
-            <textarea name="texto-twitter" rows="10" placeholder="O que está acontecendo?"></textarea>
-            <button type="submit">Tweetar</button>
-         </form>
+                  <li class="cabecalho__menu-item">
+                     <img src="assets/img/Notification.png" alt="">
+                     <a href="#">Notificações</a>
+                  </li>
 
-         <!-- feed de notícias -->
-         <section>
-            <!-- lista de notícias -->
-            <ul>
-               <!-- notícia -->
-               <li>
-                  <!-- avatar do usuário -->
-                  <img src="assets/img/ProfilePic.png" alt="Daniel">
+                  <li class="cabecalho__menu-item">
+                     <img src="assets/img/Message.png" alt="">
+                     <a href="#">Mensagens</a>
+                  </li>
 
-                  <!-- informações do usuário -->
-                  <div>
-                     <h2>Daniel</h2>
-                     <span>@danielkenzie 14s</span>
-                     <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... #VouSerDev #DoZeroAoCodigo</p>
-                  </div>
-               </li>
-               <li>
-                  <!-- avatar do usuário -->
-                  <img src="assets/img/Maria.png" alt="Maria">
+                  <li class="cabecalho__menu-item">
+                     <img src="assets/img/SaveItem.png" alt="">
+                     <a href="#">Itens Salvos</a>
+                  </li>
 
-                  <!-- informações do usuário -->
-                  <div>
-                     <h2>Maria</h2>
-                     <span>@mariakenzie 7h</span>
-                     <p>Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer. Ele pode ter algumas hashtags também. #likethis</p>
-                  </div>
-               </li>
-               <li>
-                  <!-- avatar do usuário -->
-                  <img src="assets/img/Hudson.png" alt="Hudson">
+                  <li class="cabecalho__menu-item">
+                     <img src="assets/img/List.png" alt="">
+                     <a href="#">Listas</a>
+                  </li>
 
-                  <!-- informações do usuário -->
-                  <div>
-                     <h2>Hudson</h2>
-                     <span>@hudsonkenzie 1d</span>
-                     <p>98% de #empregabiliade? Só na Kenzie. Pois é, 98% dos alunos formados estão trabalhando na área menos de 1 mês após a graduação. #ninguemmesegura</p>
-                  </div>
-               </li>
-            </ul>
-         </section>
-      </main>
+                  <li class="cabecalho__menu-item">
+                     <img src="assets/img/ProfilePic.png" alt="">
+                     <a href="#">Perfil</a>
+                  </li>
+
+                  <li class="cabecalho__menu-item">
+                     <img src="assets/img/Plus.png" alt="">
+                     <a href="#">Mais</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+
+         <!-- conteúdo principal -->
+         <main class="conteudo-principal">
+            <!-- título -->
+            <h3 class="conteudo-principal__titulo">Home</h3>
+
+            <!-- formulário -->
+            <form action="#" class="conteudo-principal__formulario">
+               <textarea name="texto-twitter" placeholder="O que está acontecendo?"></textarea>
+               <button type="submit">Tweetar</button>
+            </form>
+
+            <!-- feed de tweets -->
+            <section class="conteudo-principal__feed-tweet">
+               <!-- lista de tweets -->
+               <ul class="conteudo-principal__lista-tweet">
+                  <!-- o tweet em si -->
+                  <li class="conteudo-principal__tweet">
+                     <!-- foto do perfil -->
+                     <img src="assets/img/ProfilePic.png" alt="Daniel" class="tweet__foto-perfil">
+
+                     <!-- informações do perfil -->
+                     <div class="tweet__info-perfil">
+                        <h2>Daniel</h2>
+                        <span>@danielkenzie 14s</span>
+                        <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... <span>#VouSerDev</span> <span>#DoZeroAoCodigo</span></p>
+                     </div>
+                  </li>
+
+                  <li class="conteudo-principal__tweet">
+                     <!-- foto do perfil -->
+                     <img src="assets/img/Maria.png" alt="Maria" class="tweet__foto-perfil">
+
+                     <!-- informações do perfil -->
+                     <div class="tweet__info-perfil">
+                        <h2>Maria</h2>
+                        <span>@mariakenzie 7h</span>
+                        <p>Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer. Ele pode ter algumas hashtags também. <span>#likethis</span></p>
+                     </div>
+                  </li>
+
+                  <li class="conteudo-principal__tweet">
+                     <!-- foto do perfil -->
+                     <img src="assets/img/Hudson.png" alt="Hudson" class="tweet__foto-perfil">
+
+                     <!-- informações do perfil -->
+                     <div class="tweet__info-perfil">
+                        <h2>Hudson</h2>
+                        <span>@hudsonkenzie 1d</span>
+                        <p>98% de <span>#empregabilidade</span>? Só na Kenzie. Pois é, 98% dos alunos formados estão trabalhando na área menos de 1 mês após a graduação. <span>#ninguemmesegura</span></p>
+                     </div>
+                  </li>
+                  
+                  <li class="conteudo-principal__tweet">
+                     <!-- foto do perfil -->
+                     <img src="assets/img/ProfilePic.png" alt="Daniel" class="tweet__foto-perfil">
+
+                     <!-- informações do perfil -->
+                     <div class="tweet__info-perfil">
+                        <h2>Daniel</h2>
+                        <span>@danielkenzie 14s</span>
+                        <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. É hora de se preparar... <span>#VouSerDev</span> <span>#DoZeroAoCodigo</span></p>
+                     </div>
+                  </li>
+
+                  <li class="conteudo-principal__tweet">
+                     <!-- foto do perfil -->
+                     <img src="assets/img/Maria.png" alt="Maria" class="tweet__foto-perfil">
+
+                     <!-- informações do perfil -->
+                     <div class="tweet__info-perfil">
+                        <h2>Maria</h2>
+                        <span>@mariakenzie 7h</span>
+                        <p>Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer. Ele pode ter algumas hashtags também. <span>#likethis</span></p>
+                     </div>
+                  </li>
+
+                  <li class="conteudo-principal__tweet">
+                     <!-- foto do perfil -->
+                     <img src="assets/img/Hudson.png" alt="Hudson" class="tweet__foto-perfil">
+
+                     <!-- informações do perfil -->
+                     <div class="tweet__info-perfil">
+                        <h2>Hudson</h2>
+                        <span>@hudsonkenzie 1d</span>
+                        <p>98% de <span>#empregabilidade</span>? Só na Kenzie. Pois é, 98% dos alunos formados estão trabalhando na área menos de 1 mês após a graduação. <span>#ninguemmesegura</span></p>
+                     </div>
+                  </li>
+               </ul>
+            </section>
+         </main>
+      </div>
    </body>
 </html>

@@ -1,0 +1,108 @@
+body {
+   font-family: 'Roboto', sans-serif;
+}
+.container {
+   width: 100%;
+   max-width: 1000px;
+   min-height: 100vh;
+   margin: 25px auto;
+   display: flex;
+}
+/* cabeçalho */
+.cabecalho {
+   flex-basis: 30%;
+   padding-left: 32px;
+   border: 1px solid #e7ecf0;
+   border-right: 0;
+}
+.cabecalho__logo {
+   padding: 16px 0;
+   /* margin-bottom: 16px; */
+}
+.cabecalho__logo figcaption {
+   display: none;
+}
+.cabecalho__menu-item {
+   margin-bottom: 25px;
+   display: flex;
+   align-items: center;
+}
+.cabecalho__menu-item img {
+   height: 18px;
+   margin-right: 25px;
+}
+.cabecalho__menu-item a {
+   color: #555;
+   font-size: 16px;
+   font-weight: 900;
+   text-decoration: none;
+}
+
+/* conteúdo principal */
+.conteudo-principal {
+   flex-basis: 70%;
+   border-left: 1px solid #e7ecf0;
+   border-right: 1px solid #e7ecf0;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+}
+.conteudo-principal__titulo {
+   padding: 16px 36px;
+   font-weight: 800;
+   font-size: 18px;
+   color: #222;
+   border-top: 1px solid #e7ecf0;
+}
+
+.conteudo-principal__formulario {
+   padding: 16px 36px;
+   border-top: 1px solid #e7ecf0;
+   border-bottom: 10px solid #e7ecf0;
+   text-align: right;
+}
+.conteudo-principal__formulario textarea {
+   display: block;
+   width: 100%;
+   border: 0;
+   outline: 0;
+   resize: none;
+   height: 55px;
+}
+.conteudo-principal__formulario button {
+   background-color: #7dcdff;
+   border: 0;
+   outline: 0;
+   border-radius: 20px;
+   padding: 10px 24px;
+   color: #fff;
+   font-weight: 600;
+   font-family: 'Open Sans', sans-serif;
+}
+.conteudo-principal__tweet {
+   padding: 22px 36px;
+   display: flex;
+   align-items: flex-start;
+   border-bottom: 1px solid #e7ecf0;
+}
+.tweet__info-perfil {
+   margin-left: 16px;
+}
+.tweet__info-perfil h2 {
+   display: inline-block;
+   font-weight: 700;
+}
+.tweet__info-perfil span {
+   display: inline-block;
+   color: #828282;
+}
+.tweet__info-perfil p {
+   margin-top: 14px;
+   color: #555;
+   line-height: 1.4;
+   /* font-weight: 600; */
+   font-family: 'Roboto', sans-serif;
+}
+
+.tweet__info-perfil p span {
+   color: #1da1f2;
+}
