@@ -67,7 +67,21 @@ body {
    outline: 0;
    resize: none;
    height: 55px;
+   font-size: 15px;
+   font-family: 'Open Sans', sans-serif;
 }
+
+.conteudo-principal__formulario :-webkit-input-placeholder,
+.conteudo-principal__formulario :-moz-placeholder,
+.conteudo-principal__formulario ::-moz-placeholder,
+.conteudo-principal__formulario :-ms-input-placeholder,
+.conteudo-principal__formulario ::-ms-input-placeholder,
+.conteudo-principal__formulario ::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #bbb;
+}
+
 .conteudo-principal__formulario button {
    background-color: #7dcdff;
    border: 0;
