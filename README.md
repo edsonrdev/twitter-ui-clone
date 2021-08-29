@@ -7,13 +7,9 @@ The project consists of recreating a screen for creating tweets, where the user 
 
 ## Technologies
 
-<code><img height="35" width="35" src="./public/html5-logo.svg"></code>
-<code><img height="35" width="35" src="./public/css3-logo.svg"></code>
-<code><img height="35" width="35" src="./public/js-logo.svg"></code>
-<code><img height="35" width="35" src="./public/vscode-logo.svg"></code>
-<code><img height="35" width="35" src="./public/git-logo.svg"></code>
-<<<<<<< HEAD
-<code><img height="35" width="35" src="./public/github-logo.svg"></code>
-=======
-<code><img height="35" width="35" src="./public/github-logo.svg"></code>
->>>>>>> 0b66bdb24405034c499f2cd669a29c437cddbefc
+<code><img height="75" width="75" src="./public/html5-logo.svg"></code>
+<code><img height="75" width="75" src="./public/css3-logo.svg"></code>
+<code><img height="75" width="75" src="./public/js-logo.svg"></code>
+<code><img height="75" width="75" src="./public/vscode-logo.svg"></code>
+<code><img height="75" width="75" src="./public/git-logo.svg"></code>
+<code><img height="75" width="75" src="./public/github-logo.svg"></code>
