@@ -1,5 +1,5 @@
 # <img src="./assets/img/bird 1.svg"> Kenzie's Twitter Interface Clone (Ken-Te-Vi)
-Twitter user interface clone: project developed with HTML5 and CSS3 in the Kenzie Programming Marathon (3rd Edition).
+Twitter user interface clone: project developed with HTML5, CSS3 and JS in the Kenzie Programming Marathon (3rd Edition).
 
 ## Functionality
 
